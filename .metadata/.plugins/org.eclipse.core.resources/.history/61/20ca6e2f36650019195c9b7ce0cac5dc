@@ -1,0 +1,16 @@
+package com.revature;
+
+public class Hello {
+	//Single Comment
+	/*this
+	 * is
+	 * a
+	 * multi
+	 * line
+	 * comment
+	 */
+	//JVM looks for a method with this signature
+	public static void main(String [] adventureTime) {
+		System.out.println("Goodbye, Earth");
+	}
+}

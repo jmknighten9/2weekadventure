@@ -1,0 +1,23 @@
+package com.revature;
+
+public class Hello {
+	//Single Comment
+	/*this
+	 * is
+	 * a
+	 * multi
+	 * line
+	 * comment
+	 */
+	//JVM looks for a method with this signature
+	//Entry Point
+	/*
+	 * public- Access modifier (everything can see it)
+	 * static- don't need an instance of the class to run a static method
+	 * void: return type; doesn't return anything
+	 */
+	public static void main(String [] args) {
+		System.out.println("GoodBye, Earth");
+		
+	}
+}

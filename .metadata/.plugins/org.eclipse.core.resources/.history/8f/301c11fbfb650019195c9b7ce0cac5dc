@@ -1,0 +1,37 @@
+package com.revature.blueprints;
+
+public class RocketShip {
+	String name;
+	int numOfRockets;
+	int fuelCapacity;
+	boolean isMinifridge;
+	
+	public RocketShip() {
+		
+	}
+	
+	
+	public RocketShip(String name, int numOfRockets,int fuelCapacity,
+			boolean isMinifridge) {
+		this.name=name;
+		this.numOfRockets=numOfRockets;
+		this.fuelCapacity=fuelCapacity;
+		this.isMinifridge=isMinifridge;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String name) {
+		this.name=name;
+	}
+
+
+	@Override
+	public String toString() {
+		return "RocketShip [name=" + name + ", numOfRockets=" + numOfRockets + ", fuelCapacity=" + fuelCapacity
+				+ ", isMinifridge=" + isMinifridge + "]";
+	}
+	
+}

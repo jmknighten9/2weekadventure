@@ -1,0 +1,24 @@
+package com.revature.collections;
+
+public class FunWithArrays {
+	/*
+	 * Arrays in Java are fixed length/type unlike JavaScript where rules dont
+	 * matter
+	 * 
+	 */
+	public static void main(String[] args) {
+		// int array with 5 elements
+		int[] myArray = new int[5];
+		myArray[3] = 3;
+		for (int i = 0; i < myArray.length; i++) {
+			System.out.println(myArray[i]);
+		}
+		//Array Literal
+		int [] myArray2= {1,3,4,5,2,6,7,3,8,9,2004};//11 elements
+		//Take each element, multiply by 15 and then print the array
+		for (int i =0;i< myArray2.length;i++) {
+			myArray2[i]*=15;
+			System.out.println(myArray2[i]);
+		}
+	}
+}
