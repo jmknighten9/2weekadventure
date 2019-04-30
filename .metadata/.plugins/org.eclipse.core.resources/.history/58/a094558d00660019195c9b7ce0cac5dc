@@ -1,0 +1,34 @@
+package com.revature.flow;
+
+public class LoopyLoopz {
+	/*If Statement
+	 * for decision making
+	 * proivides multiple paths of execution
+	 *
+	 *if (<conditional>){
+	 * <what logic to do if true>
+	 * }else if(<second conditional>){
+	 * <what logic to do if 2nd conditional is true>
+	 * }else{
+	 * <what to do if false>
+	 * }
+	 */
+	
+	public static void ifMethod(int a) {
+		
+		if (a>50) {
+			System.out.println("a is bigger than 50!");
+		}else if(a==50){//== used for comparision
+			System.out.println(" a is smack dab on 50!!");
+		}
+		else {
+			System.out.println("a is smaller than 50 :(");
+		}
+	}
+	
+	public static void main(String [] args) {
+		ifMethod(75);
+		ifMethod(3);
+		ifMethod(50);
+	}
+}

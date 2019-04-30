@@ -1,0 +1,21 @@
+package com.revature.blueprints;
+
+public class RocketShip {
+	private String name;
+	private int  numOfRockets;
+	private int fuelCapacity;
+	private boolean isMinifridge;
+	
+	
+
+	
+
+
+
+	@Override
+	public String toString() {
+		return "RocketShip [name=" + name + ", numOfRockets=" + numOfRockets + ", fuelCapacity=" + fuelCapacity
+				+ ", isMinifridge=" + isMinifridge + "]";
+	}
+	
+}

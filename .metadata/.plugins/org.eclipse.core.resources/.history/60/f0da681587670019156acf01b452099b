@@ -1,0 +1,11 @@
+package com.revature.pillars;
+
+import com.revature.blueprints.RocketShip;
+
+public class UltraRocketShip extends RocketShip {
+	private boolean hasBar;
+	isMiniFridge=true;
+	private String warpDriveModel;
+	
+	
+}

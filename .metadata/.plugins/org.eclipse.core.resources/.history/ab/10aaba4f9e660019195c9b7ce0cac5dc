@@ -1,0 +1,11 @@
+package com.revature.collections;
+
+public class FunWithArrays {
+	public static void main(String [] args) {
+		// int array with 5 elements
+		int [] myArray= new int [5];
+		myArray[3]= 3;
+		System.out.println(myArray);
+		
+	}
+}
