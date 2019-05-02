@@ -1156,3 +1156,63 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-02 08:59:20.528
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.vnzeerFq => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-02 15:24:59.423
+!MESSAGE Boot LS startup time from start to initialized: 3612ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-02 15:24:59.444
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.gwEgyubH
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-02 15:24:59.445
+!MESSAGE subscribing to classpath changes: sts4.classpath.gwEgyubH
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-02 15:24:59.445
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-02 15:24:59.446
+!MESSAGE subsribers = [sts4.classpath.gwEgyubH]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-02 15:24:59.446
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-02 15:24:59.449
+!MESSAGE project WhatDoesItDoes ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-02 15:24:59.449
+!MESSAGE Preparing classpath changed notification WhatDoesItDoes
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-02 15:24:59.450
+!MESSAGE project LinkedListDemo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-02 15:24:59.450
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-02 15:24:59.451
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-02 15:24:59.451
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.gwEgyubH => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-02 15:24:59.452
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-02 15:24:59.452
+!MESSAGE executing callback sts4.classpath.gwEgyubH WhatDoesItDoes false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-02 15:24:59.482
+!MESSAGE executing callback sts4.classpath.gwEgyubH SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-02 15:24:59.483
+!MESSAGE Preparing classpath changed notification LinkedListDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-02 15:24:59.483
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-02 15:24:59.485
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-02 15:24:59.485
+!MESSAGE executing callback sts4.classpath.gwEgyubH LinkedListDemo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-02 15:24:59.490
+!MESSAGE executing callback sts4.classpath.gwEgyubH SUCCESS [done]
